@@ -15,3 +15,14 @@ span {
 a {
   text-decoration: none;
 }
+.container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.company-name {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.logo__logo-img {
+  vertical-align: baseline;
+}
