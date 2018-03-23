@@ -1,5 +1,7 @@
 @baseColor: #289dcc;
 @baseColorDarked: #005BA6;
+@colorRed: #E7501E;
+@bodyColor: #f5f5f5;
 
 @font-face {
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -16,6 +18,10 @@ ul, li, span {
 		padding: 0;
 }
 
+body {
+		background-color: #f5f5f5;
+}
+
 a {
 		text-decoration: none;	
 }
@@ -25,16 +31,68 @@ a {
 		padding-right: 50px;
 }
 
-.company-name {
-		display: inline-block;
-		vertical-align: baseline;
+.header {
+		padding-top: 10px;
 }
 
 .logo {
-		&__logo-img {
+		&__img {
 				vertical-align: baseline;
 		}
 }
+
+.company-name {
+		display: inline-block;
+		vertical-align: baseline;
+		margin-left: 5px;
+		&__title {
+				font-size: 42px;
+				font-family: 'Open Sans', sans-serif;
+				color: @baseColor;		
+		}
+		&__subtitle {
+				font-size: 24px;
+				font-weight: 600;
+				color: @baseColor;	
+		}
+}
+
+.registration {
+		&__img {
+				vertical-align: baseline;
+		}
+}
+
+.cart {
+		&__quantity {
+				display: inline-block;
+				font-size: 22px;
+				vertical-align: middle;
+				color: @colorRed;
+				font-weight: 600;
+		}
+		&__text {
+				display: inline-block;
+				vertical-align: middle;
+		}
+}
+
+.connections {
+		&__phone-text {
+				font-size: 22px;
+		}
+		&__whatsapp-icon,
+		&__viber-icon, 
+		&__telegram-icon,
+		&__phone-icon {
+				vertical-align: middle;	
+		}
+		&__phone-text {
+				vertical-align: middle;	
+				display: inline-block;
+		}
+}
+
 
 
 

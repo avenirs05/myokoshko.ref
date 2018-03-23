@@ -16,21 +16,45 @@
     <link href="/css/moskit.css" rel="stylesheet">
 </head>
 
-<body> 
+<body>
 
-    <div class="container-fluid d-none d-lg-block">
+    <div class="header container-fluid d-none d-lg-block">
         <div class="row">
             <div class="col">
                 <a class="logo" href="/">
-                    <img class="logo__logo-img" src="/imgs/logo.png" width="90" alt="">
+                    <img class="logo__img" src="/imgs/logo.png" height="90" alt="">
                 </a>
                 <div class="company-name">
-                    <div>Моё окошко</div>
-                    <div>Комплектующие для окон</div>
+                    <div class="company-name__title">Моё окошко</div>
+                    <div class="company-name__subtitle">Комплектующие для окон</div>
                 </div>
             </div>
             <div class="col">
-              
+                <div class="row">
+                    <div class="registration col">
+                        <span class="enter">
+                            <img class="registration__img" src="imgs/lock.svg" width="12" height="12" alt="">  
+                            <a class="registration__enter-text" href="/user/login/" target="_blank">Вход</a>&nbsp;&nbsp;
+                        </span>
+                        <a class="registration__reg-text" href="/user/register/" target="_blank">Регистрация</a>
+                    </div>
+                    <div class="cart col text-right">
+                        <span class="cart__text">Товаров в корзине:&nbsp;</span>
+                        <span class="cart__quantity">0</span>
+                        <img class="cart__img img-fluid" src="/imgs/connect/cart.svg" width="25" height="25" alt=""> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="connections col text-right">
+                        <img class="connections__whatsapp-icon " src="/imgs/connect/whatsapp.svg" width="27" height="27" alt="">
+                        <img class="connections__viber-icon " src="/imgs/connect/viber.png" width="25" height="25" alt="">
+                        <img class="connections__telegram-icon " src="/imgs/connect/telegram.png" width="25" height="25" alt="">
+                        <img class="connections__phone-icon " src="/imgs/connect/phone.svg" width="17" height="17" alt="">
+                        <span class="connections__phone-text">+7 (495) 999-18-14</span>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="connections__phone-text col text-right">+7 (495) 999-18-14</div>
+                </div>
             </div>
         </div>
     </div>
@@ -46,12 +70,12 @@
     <script src="/js/menu-mobile.js"></script>
 
     <!-- My Own Js-scripts -->
-    <script src="/js/moskit-data.js"></script>
+<!--     <script src="/js/moskit-data.js"></script> -->
     <script src="/js/func.js"></script>
-    <script src="/js/moskit-func.js"></script>       
+<!--     <script src="/js/moskit-func.js"></script>       
     <script src="/js/moskit-main.js"></script>
     <script src="/js/main.js"></script>
-    <script src="/js/cart.js"></script>
+    <script src="/js/cart.js"></script> -->
     <script src="/js/jquery.maskedinput.js" type="text/javascript"></script>
 
 </body> 
