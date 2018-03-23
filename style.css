@@ -18,11 +18,14 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  text-decoration: none;
+}
 .container-fluid {
   padding-left: 50px;
   padding-right: 50px;
 }
-.header {
+.header-wrap {
   padding-top: 10px;
 }
 .logo__img {
@@ -69,4 +72,40 @@ a {
 .connections__phone-text {
   vertical-align: middle;
   display: inline-block;
+}
+.menu-wrap {
+  margin-top: 15px;
+}
+.menu {
+  background: #005ba6;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+.menu__item {
+  color: white;
+}
+.menu__btn-dropdown {
+  background-color: transparent;
+  color: white;
+}
+.menu__nav-link {
+  color: white;
+}
+.menu__nav-link:hover,
+.menu__btn-dropdown:hover {
+  color: yellow;
+}
+.menu__btn-dropdown:focus {
+  box-shadow: none;
+}
+.dropdown-menu {
+  padding: 0;
+  border-radius: 0;
+}
+.dropdown-menu__divider {
+  margin: 0;
+}
+.dropdown-menu__item {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
