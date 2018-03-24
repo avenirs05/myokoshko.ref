@@ -109,3 +109,38 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.tile-row {
+  margin-top: 25px;
+}
+.tile {
+  border: 1px solid #cccccc;
+  background: white;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.tile__img {
+  width: 100%;
+}
+.tile__link-content {
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+.tile__link {
+  font-weight: 600;
+}
+.tile:hover {
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(49, 50, 116, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(49, 50, 116, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(49, 50, 116, 0.75);
+}
+@media screen and (max-device-width: 991px) {
+  .tile {
+    margin-top: 25px;
+  }
+  .tile-row {
+    margin-top: 0;
+  }
+}

@@ -8,10 +8,4 @@ jQuery(document).ready(function () {
 	  $(".footer").addClass("fixed-bottom");
 	}
 
-	
-
-	// Рассчет скидки для клиента
-	// $('.discount').text( calcDiscount() ) ;
-	
-
 });

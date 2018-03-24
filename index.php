@@ -6,18 +6,19 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">     
-    
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/tiles.css" rel="stylesheet">
-   
-    <link href="/css/menu-mobile.css" rel="stylesheet">
 
-    <link href="/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">   
+    <link href="/css/style.css" rel="stylesheet">
     <link href="/css/moskit.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/pushy.css">
 </head>
 
 <body>
-
+		<?php 
+				define('ROOT', dirname(__FILE__));
+				require_once (ROOT . '/mob-menu.php');
+		?>
+		
 <div class="header-wrap container-fluid d-none d-lg-block">
     <div class="row">
         <div class="col">
@@ -41,7 +42,7 @@
                 <div class="cart col text-right">
                     <span class="cart__text">Товаров в корзине:&nbsp;</span>
                     <span class="cart__quantity">0</span>
-                    <img class="cart__img img-fluid" src="/imgs/connect/cart.svg" width="25" height="25" alt=""> 
+                    <img class="cart__img img-fluid" src="/imgs/cart.svg" width="25" height="25" alt=""> 
                 </div>
             </div>
             <div class="row">
@@ -104,24 +105,128 @@
     </div>
 </div>
 
+<!-- Плитки -->
+<div class="tile-wrap container-fluid">
+    <div class="row tile-row">
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="tile">
+                    <div>
+                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
+                    </div>
+                    <div class="tile__link-content">
+                      <a href="#" class="tile__link">Ссылка</a>
+                    </div>
+                </div> 
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="tile">
+                    <div>
+                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
+                    </div>
+                    <div class="tile__link-content">
+                      <a href="#" class="tile__link">Ссылка</a>
+                    </div>
+                </div> 
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="tile">
+                    <div>
+                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
+                    </div>
+                    <div class="tile__link-content">
+                      <a href="#" class="tile__link">Ссылка</a>
+                    </div>
+                </div> 
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="tile">
+                    <div>
+                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
+                    </div>
+                    <div class="tile__link-content">
+                      <a href="#" class="tile__link">Ссылка</a>
+                    </div>
+                </div> 
+            </a>
+        </div>
+    </div>
+    <div class="row tile-row">
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="tile">
+                    <div>
+                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
+                    </div>
+                    <div class="tile__link-content">
+                      <a href="#" class="tile__link">Ссылка</a>
+                    </div>
+                </div> 
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="tile">
+                    <div>
+                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
+                    </div>
+                    <div class="tile__link-content">
+                      <a href="#" class="tile__link">Ссылка</a>
+                    </div>
+                </div> 
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="tile">
+                    <div>
+                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
+                    </div>
+                    <div class="tile__link-content">
+                      <a href="#" class="tile__link">Ссылка</a>
+                    </div>
+                </div> 
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="tile">
+                    <div>
+                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
+                    </div>
+                    <div class="tile__link-content">
+                      <a href="#" class="tile__link">Ссылка</a>
+                    </div>
+                </div> 
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 <script src="/js/jquery-3.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="/js/bootstrap.min.js"></script>
 
-<!-- Tiles -->
-<script src="/js/tiles.js"></script>
-
-<!-- Menu mobile -->
-<script src="/js/menu-mobile.js"></script>
+<!-- Маска ввода --> 
+<script src="/js/jquery.maskedinput.js" type="text/javascript"></script>
 
 <!-- My Own Js-scripts -->
-<!--     <script src="/js/moskit-data.js"></script> -->
+
 <script src="/js/func.js"></script>
-<!--     <script src="/js/moskit-func.js"></script>       
-<script src="/js/moskit-main.js"></script>
 <script src="/js/main.js"></script>
-<script src="/js/cart.js"></script> -->
-<script src="/js/jquery.maskedinput.js" type="text/javascript"></script>
+
+<!-- Мобильное меню -->
+<script src="/js/pushy.min.js" type="text/javascript"></script>
 
 </body> 
 </html>
