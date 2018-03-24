@@ -38,6 +38,7 @@ a:hover {
 
 .header-wrap {
 		padding-top: 10px;
+		padding-bottom: 15px;
 }
 
 .logo {
@@ -62,8 +63,8 @@ a:hover {
 		}
 }
 
-.registration {
-		&__img {
+.auth {
+		&__enter-img {
 				vertical-align: baseline;
 		}
 }
@@ -167,9 +168,26 @@ a:hover {
 	box-shadow:         7px 7px 5px 0px rgba(49, 50, 116, 0.75);
 }
 
+.tile-wrap {
+		&__title-mob {
+				font-size: 24px;
+				color: @baseColor;
+				margin-top: 20px;
+		}
+}
+
+.tile-row{
+		&__fake-dot {
+				color: white;
+		}
+}
 
 
 @media screen and (max-device-width: 991px) {
+		.container-fluid {
+				padding-left: 10px;
+				padding-right: 10px;
+		}
 		.tile {
 				margin-top: 25px;
 		}

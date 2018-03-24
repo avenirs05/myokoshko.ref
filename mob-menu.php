@@ -2,6 +2,13 @@
 <nav class="pushy pushy-left d-lg-none" data-focus="#first-link">
     <div class="pushy-content">
         <ul>
+            <li class="">
+                <span class="enter">
+                    <img class="auth__enter-img auth__enter-img_mob" src="imgs/lock-yellow.svg" width="12" height="12" alt="">  
+                    <a class="auth__enter-text auth__enter-text_mob" href="/user/login/" target="_blank">Вход</a>&nbsp;&nbsp;
+                </span>
+                <a class="auth__reg-text auth__reg-text_mob" href="/user/register/" target="_blank">Регистрация</a>
+            </li>
             <li class="pushy-link"><a href="#">Главная</a></li>
             <li class="pushy-submenu">
                 <button id="first-link">Каталог</button>

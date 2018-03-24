@@ -1,4 +1,25 @@
 /*Мои стили*/
+.pushy .auth__enter-img {
+  vertical-align: baseline;
+}
+.pushy .auth____enter-img_mob {
+  display: inline-block;
+  padding-right: 0;
+}
+.pushy .auth__enter-text {
+  display: inline-block;
+  padding-right: 0;
+  padding-left: 0;
+  color: #ffff99;
+}
+.pushy .auth__reg-text {
+  display: inline-block;
+  padding-right: 0;
+  color: #ffff99;
+}
+.pushy .enter {
+  padding-left: 30px;
+}
 .pushy-content button:focus {
   outline: 1px solid white;
 }
@@ -37,7 +58,7 @@
   /*width: 100px;*/
   width: 100%;
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   background: #000;
   color: #FFF;
   text-align: center;

@@ -1,4 +1,31 @@
+@colorYellowLight: rgb(255, 255, 153);
+
 /*Мои стили*/
+.pushy .auth {
+    &__enter-img {
+        vertical-align: baseline;
+    }
+    &____enter-img_mob {
+        display: inline-block;
+        padding-right: 0;
+    }
+    &__enter-text {
+        display: inline-block;
+        padding-right: 0;
+        padding-left: 0;
+        color: @colorYellowLight;
+    }
+    &__reg-text {
+        display: inline-block;
+        padding-right: 0;
+        color: @colorYellowLight;
+    }
+}
+
+.pushy .enter {
+    padding-left: 30px;
+}
+
 .pushy-content button:focus {
     outline: 1px solid white;
 }
@@ -43,7 +70,7 @@ overflow: auto;
   /*width: 100px;*/
   width: 100%; 
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   background: #000;
   color: #FFF;
   text-align: center;
