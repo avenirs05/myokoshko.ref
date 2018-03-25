@@ -106,9 +106,7 @@
     </div>
 </div>
 
-<!-- Плитки -->
 <div class="tile-wrap container-fluid">
-    <!-- Лого и заголовок - только в мобильной версии -->
     <div class="row d-lg-none">
         <div class="col text-center">
             <img class="" src="/imgs/logo.png" height="50" alt="">
@@ -117,115 +115,84 @@
         <div class="col">
             <h1 class="tile-wrap__title-mob text-center">Комплектующие для окон</h1>
         </div>
-    </div>  
-    <!-- End. Лого и заголовок - только в мобильной версии -->
+    </div> 
     <div class="row tile-row">
-        <div class="col-lg-3 col-md-6">
-            <a href="#">
-                <div class="tile">
-                    <div>
-                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
-                    </div>
-                    <div class="tile__link-content">
-                      <a href="#" class="tile__link">Откосы</a>
-                    </div>
-                </div> 
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <a href="#">
-                <div class="tile">
-                    <div>
-                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
-                    </div>
-                    <div class="tile__link-content">
-                      <a href="#" class="tile__link">Москитные сетки</a>
-                      <br class="d-none d-lg-block">
-                      <span class="tile-row__fake-dot d-none d-lg-block">.</span>
-                    </div>
-                </div> 
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <a href="#">
-                <div class="tile">
-                    <div>
-                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
-                    </div>
-                    <div class="tile__link-content">
-                      <a href="#" class="tile__link">Подоконники / Ремонтные накладки</a>
-                    </div>
-                </div> 
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <a href="#">
-                <div class="tile">
-                    <div>
-                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
-                    </div>
-                    <div class="tile__link-content">
-                      <a href="#" class="tile__link">Материалы для монтажа</a>
-                    </div>
-                </div> 
-            </a>
-        </div>
-    </div>
-    <div class="row tile-row">
-        <div class="col-lg-3 col-md-6">
-            <a href="#">
-                <div class="tile">
-                    <div>
-                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
-                    </div>
-                    <div class="tile__link-content">
-                      <a href="#" class="tile__link">Уплотнители</a>
-                    </div>
-                </div> 
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <a href="#">
-                <div class="tile">
-                    <div>
-                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
-                    </div>
-                    <div class="tile__link-content">
-                      <a href="#" class="tile__link">Фурнитура / ручки / накладки</a>
-                    </div>
-                </div> 
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <a href="#">
-                <div class="tile">
-                    <div>
-                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
-                    </div>
-                    <div class="tile__link-content">
-                      <a href="#" class="tile__link">Отливы / козырьки</a>
-                    </div>
-                </div> 
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <a href="#">
-                <div class="tile">
-                    <div>
-                        <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
-                    </div>
-                    <div class="tile__link-content">
-                      <a href="#" class="tile__link">Панели ПВХ / Сайдинг / Ламинат</a>
-                    </div>
-                </div> 
-            </a>
+        <div class="tile-wrap d-flex flex-wrap col">
+            <div class="tile" href="#">
+                <div>
+                    <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
+                </div>
+                <div class="tile__link-content">
+                  <a href="#" class="tile__link">Откосы</a>
+                </div>
+            </div>
+            <div class="tile" href="#">      
+                <div>
+                    <img src="imgs/tiles/moskitka.jpg" alt="" class="tile__img img-fluid">
+                </div>
+                <div class="tile__link-content">
+                  <a href="#" class="tile__link">Москитные сетки</a>
+                </div>   
+            </div>
+            <div class="tile" href="#">
+                <div>
+                    <img src="imgs/tiles/podokonniki.jpg" alt="" class="tile__img img-fluid">
+                </div>
+                <div class="tile__link-content">
+                  <a href="#" class="tile__link">Подоконники <br>Ремонтные накладки</a>
+                </div>
+            </div>
+            <div class="tile" href="#">
+                <div>
+                    <img src="imgs/tiles/materials.jpg" alt="" class="tile__img img-fluid">
+                </div>
+                <div class="tile__link-content">
+                  <a href="#" class="tile__link">Материалы для монтажа</a>
+                </div>  
+            </div>
+            <div class="tile" href="#">
+                <div>
+                    <img src="imgs/tiles/uplotniteli.jpg" alt="" class="tile__img img-fluid">
+                </div>
+                <div class="tile__link-content">
+                  <a href="#" class="tile__link">Уплотнители</a>
+                </div>
+            </div>
+            <div class="tile" href="#">      
+                <div>
+                    <img src="imgs/tiles/furnitura.jpg" alt="" class="tile__img img-fluid">
+                </div>
+                <div class="tile__link-content">
+                  <a href="#" class="tile__link">Фурнитура<br>Ручки / Накладки</a>
+                </div>   
+            </div>
+            <div class="tile" href="#">
+                <div>
+                    <img src="imgs/tiles/otlivi.jpg" alt="" class="tile__img img-fluid">
+                </div>
+                <div class="tile__link-content">
+                  <a href="#" class="tile__link">Отливы / Козырьки</a>
+                </div>
+            </div>
+            <div class="tile" href="#">
+                <div>
+                    <img src="imgs/tiles/paneli-pvh.jpg" alt="" class="tile__img img-fluid">
+                </div>
+                <div class="tile__link-content">
+                  <a href="#" class="tile__link">Панели ПВХ<br>Сайдинг / Ламинат</a>
+                </div>  
+            </div>
+            <div class="tile" href="#">
+                <div>
+                    <img src="imgs/tiles/pilomaterialy.jpg" alt="" class="tile__img img-fluid">
+                </div>
+                <div class="tile__link-content">
+                  <a href="#" class="tile__link">Пиломатериалы</a>
+                </div>  
+            </div>
         </div>
     </div>
 </div>
-
-
-
-
 
 <script src="/js/jquery-3.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

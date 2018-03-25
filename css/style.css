@@ -114,10 +114,13 @@ a:hover {
   margin-top: 25px;
 }
 .tile {
+  display: block;
+  width: 23%;
   border: 1px solid #cccccc;
   background: white;
   padding: 10px;
   cursor: pointer;
+  margin-bottom: 2.6%;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -137,6 +140,9 @@ a:hover {
   -moz-box-shadow: 7px 7px 5px 0px rgba(49, 50, 116, 0.75);
   box-shadow: 7px 7px 5px 0px rgba(49, 50, 116, 0.75);
 }
+.tile-wrap {
+  justify-content: space-between;
+}
 .tile-wrap__title-mob {
   font-size: 24px;
   color: #289dcc;
@@ -147,13 +153,29 @@ a:hover {
 }
 @media screen and (max-device-width: 991px) {
   .container-fluid {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .tile-wrap {
+    justify-content: center;
   }
   .tile {
     margin-top: 25px;
+    width: 80%;
   }
   .tile-row {
+    margin-top: 0;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .tile-wrap {
+    justify-content: space-between;
+  }
+  .tile-wrap__title-mob {
+    margin-bottom: 25px;
+  }
+  .tile {
+    width: 49%;
     margin-top: 0;
   }
 }
