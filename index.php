@@ -14,10 +14,11 @@
 </head>
 
 <body>
-		<?php 
-				define('ROOT', dirname(__FILE__));
-				require_once (ROOT . '/mob-menu.php');
-		?>
+
+<?php 
+		define('ROOT', dirname(__FILE__));
+		require_once (ROOT . '/mob-menu.php');
+?>
 		
 <div class="header-wrap container-fluid d-none d-lg-block">
     <div class="row">
@@ -60,7 +61,6 @@
     </div>
 </div>
 
-<!-- Мобильное меню -->
 <div class="container-fluid d-none d-lg-block">
     <div class="row">
         <div class="col">
@@ -118,7 +118,7 @@
     </div> 
     <div class="row tile-row">
         <div class="tile-wrap d-flex flex-wrap col">
-            <div class="tile" href="#">
+            <div class="tile">
                 <div>
                     <img src="imgs/tiles/otkosi.jpg" alt="" class="tile__img img-fluid">
                 </div>
@@ -126,7 +126,7 @@
                   <a href="#" class="tile__link">Откосы</a>
                 </div>
             </div>
-            <div class="tile" href="#">      
+            <div class="tile">      
                 <div>
                     <img src="imgs/tiles/moskitka.jpg" alt="" class="tile__img img-fluid">
                 </div>
@@ -134,7 +134,7 @@
                   <a href="#" class="tile__link">Москитные сетки</a>
                 </div>   
             </div>
-            <div class="tile" href="#">
+            <div class="tile">
                 <div>
                     <img src="imgs/tiles/podokonniki.jpg" alt="" class="tile__img img-fluid">
                 </div>
@@ -142,7 +142,7 @@
                   <a href="#" class="tile__link">Подоконники <br>Ремонтные накладки</a>
                 </div>
             </div>
-            <div class="tile" href="#">
+            <div class="tile">
                 <div>
                     <img src="imgs/tiles/materials.jpg" alt="" class="tile__img img-fluid">
                 </div>
@@ -150,7 +150,7 @@
                   <a href="#" class="tile__link">Материалы для монтажа</a>
                 </div>  
             </div>
-            <div class="tile" href="#">
+            <div class="tile">
                 <div>
                     <img src="imgs/tiles/uplotniteli.jpg" alt="" class="tile__img img-fluid">
                 </div>
@@ -158,7 +158,7 @@
                   <a href="#" class="tile__link">Уплотнители</a>
                 </div>
             </div>
-            <div class="tile" href="#">      
+            <div class="tile">      
                 <div>
                     <img src="imgs/tiles/furnitura.jpg" alt="" class="tile__img img-fluid">
                 </div>
@@ -166,7 +166,7 @@
                   <a href="#" class="tile__link">Фурнитура<br>Ручки / Накладки</a>
                 </div>   
             </div>
-            <div class="tile" href="#">
+            <div class="tile">
                 <div>
                     <img src="imgs/tiles/otlivi.jpg" alt="" class="tile__img img-fluid">
                 </div>
@@ -174,7 +174,7 @@
                   <a href="#" class="tile__link">Отливы / Козырьки</a>
                 </div>
             </div>
-            <div class="tile" href="#">
+            <div class="tile">
                 <div>
                     <img src="imgs/tiles/paneli-pvh.jpg" alt="" class="tile__img img-fluid">
                 </div>
@@ -182,7 +182,7 @@
                   <a href="#" class="tile__link">Панели ПВХ<br>Сайдинг / Ламинат</a>
                 </div>  
             </div>
-            <div class="tile" href="#">
+            <div class="tile">
                 <div>
                     <img src="imgs/tiles/pilomaterialy.jpg" alt="" class="tile__img img-fluid">
                 </div>
