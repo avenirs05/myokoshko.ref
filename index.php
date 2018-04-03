@@ -48,10 +48,10 @@
             </div>
             <div class="row">
                 <div class="connections col text-right">
-                    <img class="connections__whatsapp-icon " src="/imgs/connect/whatsapp.svg" width="27" height="27" alt="">
-                    <img class="connections__viber-icon " src="/imgs/connect/viber.png" width="25" height="25" alt="">
-                    <img class="connections__telegram-icon " src="/imgs/connect/telegram.png" width="25" height="25" alt="">
-                    <img class="connections__phone-icon " src="/imgs/connect/phone.svg" width="17" height="17" alt="">
+                    <img class="connections__whatsapp-icon" src="/imgs/connect/whatsapp.svg" width="27" height="27" alt="">
+                    <img class="connections__viber-icon" src="/imgs/connect/viber.png" width="25" height="25" alt="">
+                    <img class="connections__telegram-icon" src="/imgs/connect/telegram.png" width="25" height="25" alt="">
+                    <img class="connections__phone-icon" src="/imgs/connect/phone.svg" width="17" height="17" alt="">
                     <span class="connections__phone-text">+7 (495) 999-18-14</span>
                 </div>
                 <div class="w-100"></div>
